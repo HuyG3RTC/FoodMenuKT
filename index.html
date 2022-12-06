@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Food Menu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="foods/logo-icon.png" type="image/x-icon"> 
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <section class = "menu">
+      <div class = "menu-container">
+        <div class = "menu-head">
+          <h2>MoTelKT Menu</h2>
+          
+        </div>
+
+        <div class = "menu-btns">
+          <button type = "button" class = "menu-btn active-btn" id = "featured">Bữa sáng</button>
+          <button type = "button" class = "menu-btn" id = "today-special">Cơm Phần</button>
+          <button type = "button" class = "menu-btn" id = "new-arrival">Nước giải khát</button>
+        </div>
+
+        <div class = "food-items">
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/1.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cơm Sườn</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "foods/8.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Lẩu canh Chua</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Cơm gia đình</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "foods/17.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Café...</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Nước giải khát</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/2.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Hủ Tiếu</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "foods/9.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cá kho</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Cơm gia đình</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "foods/18.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Trà lipton</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Nước giải khát</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/3.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Bún Riêu</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "foods/10.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Canh khổ qua</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Cơm gia đình</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "foods/19.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Trà sữa</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Nước giải khát</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/5.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Phở bòa</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "foods/11.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Thịt kho tiêu</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Cơm gia đình</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "foods/20.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Trà tắc</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Nước giải khát</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/6.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Bún bò</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn Sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "foods/12.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cháo + gỏi gà</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$12.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Cơm gia đình</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "foods/21.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cam vắt</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Nước giải khát</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/7.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Bún cá</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "foods/13.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cháo cá</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Cơm gia đình</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "foods/22.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Nước ngọt</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Nước giải khát</span></p>
+            </div>
+          </div>
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/15.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">cháo lòng</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "foods/14.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Rau muông xào tỏi</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Cơm gia đình</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "foods/16.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Bánh canh</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price"></h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Thực đơn sáng</span></p>
+            </div>
+          </div>
+          <!-- end of item -->          
+        </div>
+      </div>
+      <div class="Map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d367.1473373149017!2d105.07822883043715!3d10.68322604470788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                    1!3m3!1m2!1s0x310a20d8b05d6db3%3A0x1147ee2a69523ad!2zTmjDoCBUcuG7jSBLaW0gVHV54bq_bg!5e0!3m2!1svi!2s!4v1670327619148!5m2!1svi!2s" 
+                    width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+           
+    </section>
+
+    
+
+
+
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>
