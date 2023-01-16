@@ -183,3 +183,14 @@ iframe{
     width: 80%;
     height:  400px;
 }
+.phone{
+    position: fixed;
+    right: 0px;
+    bottom: 7%;
+}
+.phone h5{
+    color: rgb(242, 242, 242);
+    background: #365eff;
+    padding: 12px;
+    border-radius: 10px;
+}
